@@ -23,12 +23,11 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import globalpathfinders from "./company/globalpathfinders.png";
+import bindisa from "./company/bindisa.png";
+import EasyExit from "./company/EasyExit.png";
+import simulateX from "./company/simulateX.png";
+import medify from "./company/medify.png";
 
 export {
   logo,
@@ -54,9 +53,9 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  globalpathfinders,
+  bindisa,
+  EasyExit,
+  simulateX,
+  medify,
 };

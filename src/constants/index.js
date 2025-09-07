@@ -16,12 +16,11 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  globalpathfinders,
+  bindisa,
+  EasyExit,
+  simulateX,
+  medify,
   threejs,
 } from "../assets";
 
@@ -117,55 +116,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Web Developer Intern",
+    company_name: "Global Pathfinders",
+    icon: globalpathfinders,
+    iconBg: "#FFFFFF",
+    date: "June 2024 – July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and deployed the official Global Pathfinders website from scratch, leading to a 50% increase in user engagement.",
+      "Configured and optimized hosting on a KVM2 VPS server, ensuring 99.9% uptime and a 40% improvement in site speed.",
+      "Handled end-to-end development, from planning to deployment, showcasing adaptability and full ownership of the project.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Backend Developer Intern",
+    company_name: "Bindisa Agritech",
+    icon: bindisa,
+    iconBg: "#FFFFFF",
+    date: "May 2025 - Jul 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led development of Bindisa Agritech, a platform with soil analysis, weather forecasts, and AI support.",
+      "Improved performance with modular APIs and components, reducing load time by 40% and increasing workflow efficiency by 20%.",
+      "Participating in code reviews and providing constructive feedback to other developers."
     ],
   },
 ];
@@ -199,12 +170,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EasyExit",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A responsive web app streamlining issue, approval, and gatepass verification for college students. Eliminated paperwork entirely and significantly reduced processing time.",
     tags: [
       {
-        name: "react",
+        name: "springboot",
         color: "blue-text-gradient",
       },
       {
@@ -212,55 +183,56 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "reactjs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: EasyExit, 
+    source_code_link: "https://easyexit.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "SimulateX",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A desktop-based circuit simulation tool for designing and analyzing circuits. It has an interactive GUI and is ideally applicable for students and engineers to visualize and validate circuit designs effectively.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javafx",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "swing",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: simulateX,
+    source_code_link: "https://github.com/lavishmeena2764/simulatex",
   },
   {
-    name: "Trip Guide",
+    name: "Medify.AI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A machine learning-powered healthcare diagnostic platform. Enables users to upload health assessments and get doctor recommendations through a user-friendly interface.",
     tags: [
       {
-        name: "nextjs",
+        name: "flask",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "reactjs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: medify,
+    source_code_link: "https://github.com/lavishmeena2764/Google-Solution-Challenge-24",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
