@@ -25,19 +25,13 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "projects", title: "Projects" },  // new link
+  { id: "resume", title: "Resume" },      // new link
+  { id: "contact", title: "Contact" },
 ];
+
 
 const services = [
   {
