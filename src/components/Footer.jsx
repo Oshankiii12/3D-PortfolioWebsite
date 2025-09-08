@@ -1,5 +1,5 @@
 import github from "../assets/socials/github.png";
-import linkedin from "../assets/socials/linkedin.svg";
+import linkedin from "../assets/socials/linkedIn.svg";
 import instagram from "../assets/socials/instagram.svg";
 
 const socials = [
